@@ -22,20 +22,22 @@ CIPC           Database Verified official company registration number
 whois          Checked domain age and registrar to detect possible scams
 
 Key Findings:
-Area Checked             Result                                                     Risk        Recommendation
-SPF Record               Exists: v=spf1 mx a include:spf.host-h.neLt o?wall          Low        Change '?all' to '-all' to prevent spoofing
-HTTPS                    Valid SSL cert, HTTP/2 response 200 OK                      Low        Renew certificate before expiry
-Technology Stack         WordPress 6.8.2, Elementor 3.31.2, VehiMcae dpiluumgin      Low        Keep plugins updated regularly
-Email                    info@pre-ownedplus.co.za matches domLaoinw                  Low        None
-Hosting                  IP [REDACTED], South Africa                                 Low        None
-Open Ports               80 (HTTP), 443 (HTTPS)                                      Low        Acceptable
-CIPC Registration        2025/634268/07 verified                                     Low        None
+
+| Area Checked         | Result                                                                          | Risk   | Recommendation                                      |
+| -------------------- | ------------------------------------------------------------------------------- | ------ | --------------------------------------------------- |
+| Domain Age           | Registered 14 Aug 2025                                                          | High   | Treat site as high-risk until verification          |
+| SSL Certificate      | Valid, issued same day as domain creation                                       | Medium | Monitor expiry and renew promptly                   |
+| Technology Stack     | WordPress 6.8.2, Elementor 3.31.2                                               | Low    | Keep plugins updated                                |
+| Email                | [info@pre-ownedplus.co.za](mailto:info@pre-ownedplus.co.za) resolves to same IP | Medium | Consider external mail services for trust           |
+| Hosting              | Shared IP in South Africa \[41.204.202.54]                                      | Medium | Monitor for suspicious activity                     |
+| Open Ports           | 80 (HTTP), 443 (HTTPS)                                                          | Low    | Acceptable                                          |
+| Company Registration | Number provided (2025/634268/07), not verifiable publicly                       | High   | Verify via official CIPC portal before transactions |
+| Online Footprint     | No reviews, maps, or social media presence                                      | High   | Exercise caution, avoid payments                    |
+
 
 Conclusion:
-Based on DNS, web server, and company registration checks, the website appears to be a
-legitimate small business operation. The company is officially registered in South Africa, uses a
-secured HTTPS setup, and runs on standard WordPress infrastructure. While the security posture
-is generally acceptable, improvements such as tightening SPF, ensuring timely plugin updates, and
-monitoring SSL expiry are recommended. This redacted report is intended to showcase
-cybersecurity assessment methodology in a professional context and is not a penetration test or full
-audit.
+
+The website pre-ownedplus.co.za is technically active, with standard WordPress infrastructure, functional SSL, and email. However, multiple indicators — extremely new domain, hidden registrant, and lack of verifiable company details — suggest a high risk of scam.
+While some technical security aspects are acceptable, anyone considering business or financial transactions with this site should perform rigorous due diligence before proceeding.
+This report demonstrates cybersecurity assessment methodology, including DNS, SSL, email, and company verification checks, for portfolio purposes. It is not a full penetration test or security audit.
+
