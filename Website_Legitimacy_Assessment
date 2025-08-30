@@ -1,0 +1,41 @@
+                  Website Legitimacy & Security Assessment Report
+
+Target: Pre-ownedplus.co.za (Redacted Report)
+Assessor: Voldi Bill Paulo Ngangu
+Date: August 2025
+
+Executive Summary:
+This assessment was conducted to evaluate the legitimacy and security posture of the website
+pre-ownedplus.co.za. The goal was to verify email configurations, website technologies, server
+security, and official company registration. The findings suggest that the website is a small business
+WordPress site with basic security measures in place. This is a redacted version of the full report,
+prepared for portfolio demonstration purposes.
+
+Methodology:
+The following tools and methods were used during this assessment:
+Tool           Purpose
+dig            Analyzed DNS TXT records and SPF configuration
+curl           Inspected HTTP/HTTPS headers and SSL status
+whatweb        Identified web technologies and plugins
+nmap           Scanned open ports and detected exposed services
+CIPC           Database Verified official company registration number
+whois          Checked domain age and registrar to detect possible scams
+
+Key Findings:
+Area Checked             Result                                                     Risk        Recommendation
+SPF Record               Exists: v=spf1 mx a include:spf.host-h.neLt o?wall          Low        Change '?all' to '-all' to prevent spoofing
+HTTPS                    Valid SSL cert, HTTP/2 response 200 OK                      Low        Renew certificate before expiry
+Technology Stack         WordPress 6.8.2, Elementor 3.31.2, VehiMcae dpiluumgin      Low        Keep plugins updated regularly
+Email                    info@pre-ownedplus.co.za matches domLaoinw                  Low        None
+Hosting                  IP [REDACTED], South Africa                                 Low        None
+Open Ports               80 (HTTP), 443 (HTTPS)                                      Low        Acceptable
+CIPC Registration        2025/634268/07 verified                                     Low        None
+
+Conclusion:
+Based on DNS, web server, and company registration checks, the website appears to be a
+legitimate small business operation. The company is officially registered in South Africa, uses a
+secured HTTPS setup, and runs on standard WordPress infrastructure. While the security posture
+is generally acceptable, improvements such as tightening SPF, ensuring timely plugin updates, and
+monitoring SSL expiry are recommended. This redacted report is intended to showcase
+cybersecurity assessment methodology in a professional context and is not a penetration test or full
+audit.
