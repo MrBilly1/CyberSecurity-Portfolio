@@ -16,7 +16,7 @@ Each report follows a professional format to showcase real-world skills while pr
   - Network Scanning with Nmap  
   - SSL/TLS & Server Header Inspection  
   - Legal Business Verification (CIPC)  
-- **Report:** [📄 View PDF Report](preownedplus_assessment_redacted.pdf)
+- **Report:** [📄 View PDF Report](https://drive.google.com/file/d/1QpD-Yxqf09NF85SMDYewabGoLfrIWGc8/view?usp=sharing)
 
 ---
 
